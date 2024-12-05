@@ -1,0 +1,100 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background: #b22222;
+    color: #000000;
+    padding: 30px;
+    text-align: center;
+}
+
+main {
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    background: #1a1a1a;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+    border-radius: 15px;
+    text-align: center;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border: 3px solid #b22222;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #0a0707;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #b22222;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #b22222;
+    color: #fff;
+    margin-top: 40px;
+}
+
+p {
+    color: #ddd;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.link-jogos {
+    margin-top: 30px;
+}
+
+.link-jogos a {
+    color: #ff4500;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 5px;
+    background: #1a1a1a;
+    border: 2px solid #ff4500;
+    transition: all 0.3s ease-in-out;
+}
+
+.link-jogos a:hover {
+    color: #fff;
+    background: #ff4500;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    main {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1em;
+    }
+    .link-jogos a {
+        font-size: 1.2em;
+    }
+}

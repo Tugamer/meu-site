@@ -1,0 +1,89 @@
+/* Estilo do corpo e temas globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+}
+
+/* Define um tamanho uniforme para todas as imagens */
+img {
+    width: 7000px; /* ajuste conforme necessário */
+    height: 100px; /* mantém a proporção da imagem */
+    display: block; /* garante alinhamento correto */
+    margin: 0 auto; /* centraliza as imagens */
+}
+
+/* Cabeçalho */
+header {
+    background: #b22222; /* Vermelho escuro */
+    color: #000; /* Texto preto */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Seção principal */
+main {
+    padding: 40px; /* Mais espaço interno */
+    max-width: 1200px; /* Largura maior */
+    margin: auto;
+    background: #1a1a1a; /* Preto sutil */
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5); /* Sombra vermelha */
+    border-radius: 15px;
+}
+
+/* Estilo das seções */
+section {
+    margin-bottom: 40px;
+}
+
+/* Imagens */
+img {
+    max-width: 90%; /* Reduzindo um pouco a largura */
+    height: auto;
+    margin: 20px auto; /* Centraliza as imagens */
+    display: block;
+    border: 2px solid #b22222; /* Borda vermelha */
+    border-radius: 10px;
+}
+
+/* Títulos */
+h1 {
+    color: #000; /* Preto para contraste */
+}
+
+h2 {
+    color: #b22222; /* Vermelho escuro */
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #b22222; /* Vermelho escuro */
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* Parágrafos */
+p {
+    color: #ddd; /* Cinza claro */
+    font-size: 1.2em; /* Texto maior */
+    margin-bottom: 20px;
+}
+
+/* Ajuste para telas maiores */
+@media (min-width: 768px) {
+    main {
+        padding: 60px; /* Mais espaço interno */
+    }
+    p {
+        font-size: 1.3em; /* Texto maior em telas grandes */
+    }
+    img {
+        max-width: 80%; /* Imagens mais destacadas */
+    }
+}
